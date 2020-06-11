@@ -1,0 +1,23 @@
+Instructions to run...
+First you need to download Lucene. Then, you need to find the paths to where the 
+lucene-analyzers-common-8.5.1.jar,
+ lucene-queryparser-8.5.1.jar
+ ,lucene-8.5.1/demo/lucene-demo-8.5.1.jar , and 
+lucene-8.5.1/demo/lucene-demo-8.5.1.jar are.Once you do that you need to go to your
+ terminal and add a CLASSPATH for EACH of these into your terminal
+ (so that your program knows where on your computer it can find the LUCENE libraries).
+ 
+here is an example:
+
+copy and paste the following commands one by one into your terminal (you can paste them anywhere)...
+except after the : replace the path with the path on YOUR computer (aka, where you can find the four .jar
+files listed above. 
+
+ export CLASSPATH=${CLASSPATH}:/Users/rheaprashanth/Documents/lucene-8.5.1/analysis/common/lucene-analyzers-common-8.5.1.jar 
+ export CLASSPATH=${CLASSPATH}:/Users/rheaprashanth/Documents/lucene-8.5.1/queryparser/lucene-queryparser-8.5.1.jar 
+ export CLASSPATH=${CLASSPATH}:/Users/rheaprashanth/Documents/lucene-8.5.1/demo/lucene-demo-8.5.1.jar 
+ export CLASSPATH=${CLASSPATH}:/Users/rheaprashanth/Documents/lucene-8.5.1/core/lucene-core-8.5.1.jar 
+ export CLASSPATH=${CLASSPATH}:/Users/rheaprashanth/Desktop/json-20140107.jar 
+ export CLASSPATH=${CLASSPATH}:/Users/rheaprashanth/Documents/lucene-8.5.1/core/lucene-core-8.5.1.jar:/Users/rheaprashanth/Downloads/gson-2.8.0.jar 
+
+export PATH=/Users/rheaprashanth/Downloads/apache-maven-3.6.3/bin:$PATH

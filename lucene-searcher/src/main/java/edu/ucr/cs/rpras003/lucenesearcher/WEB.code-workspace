@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "/Users/rheaprashanth/Documents/VScode/lucene-searcher"
+		},
+		{
+			"path": "/Users/rheaprashanth/Downloads/search-webapp-3/lucene-searcher-front-end"
+		},
+		{
+			"path": "/Users/rheaprashanth/Documents/VScode"
+		},
+		{
+			"path": "/Users/rheaprashanth/Documents/search-webapp-3"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
